@@ -1,0 +1,75 @@
+/*https://coolors.co/palette/001219-005f73-0a9396-94d2bd-e9d8a6-ee9b00-ca6702-bb3e03-ae2012-9b2226 Paleta de cores*/
+body {
+    background-color: #94d2bd;
+    font-family: 'Times New Roman', Times, serif;
+    color: #9b2226;
+}
+
+h1 {
+    color: #001219;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2, h3 {
+    color: #005f73;
+    font-size: 22px;
+    margin: 0;
+}
+
+ul,
+li,
+a {
+    color: #CA6702;
+    text-decoration: none;
+}
+
+.li1 {
+    font-size: 24px;
+}
+
+.li2 {
+    font-size: 22px;
+}
+
+.li3 {
+    font-size: 20px;
+}
+
+.li4 {
+    font-size: 18px;
+}
+
+.eu {
+    border-radius: 70px;
+}
+
+.foto {
+    float: left;
+    height: 400px;
+    padding: 10px;
+    background-color: #CA6702;
+    border-radius: 75px;
+}
+
+.fotodesc {
+    height: 450px;
+    border: solid red;
+    position: relative;
+}
+
+.desc{
+    margin: 10px;
+    padding-left: 10px;
+    border-left: 20px;
+}
+
+.headger {
+    text-align: center;
+}
+ul li:nth-child(odd) {
+    background-color: #005f73;
+}
