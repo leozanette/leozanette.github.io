@@ -16,8 +16,11 @@ nav {
     display: flex;
     padding: 8px;
     justify-content: end;
-    /* border-radius: 10px; */
     background-image: linear-gradient(to right, #2ad1f8, #8a58b9);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 nav h2:hover {
@@ -89,12 +92,20 @@ footer {
     height: 50px;
     margin-top: 10px;
     background-image: linear-gradient(to right, #2ad1f8, #8a58b9);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .fa {
     font-size: 30px;
     margin: 10px;
     color: #ffffff;
+}
+
+.fa:hover {
+    color:  #2ad1f8;
 }
 
 p {
