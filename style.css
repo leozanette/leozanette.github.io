@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Roboto;
 }
 
 body {
@@ -108,10 +109,6 @@ footer {
     color:  #2ad1f8;
 }
 
-p {
-    font-family: 'Rubik', sans-serif; 
-}
-
 hr {
     background-image: linear-gradient(to right, #2ad1f8, #8a58b9);
     margin: 60px 0;
@@ -144,3 +141,54 @@ hr {
 .about div {
     width: 40%;
 }
+
+.projetos hr {
+    background-image: linear-gradient(to right, #2ad1f8, #8a58b9);
+    margin: 60px 0;
+    height: 1px;
+}
+
+.projeto {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+.projetos-img {
+    width: 600px;
+}
+
+.projetos-text {
+    width: 40%;
+    font-family: Roboto;
+    font-size: 25px;
+    text-align: center;
+    margin: 10px;
+}
+
+.projetos-text h5{
+margin-bottom: 20px;
+font-size: 36px;
+}
+
+button {
+    margin: 20px;
+    font-size: 25px;
+    border: 0px;
+    background: none;
+    border: 2px solid #8a58b9;
+    border-radius: 6px;
+    padding: 20px;
+    width: 40%;
+  }
+  
+  button:hover {
+    background-image: linear-gradient(to right, #2ad1f8, #8a58b9);
+    color: white;
+    cursor: pointer;
+    border: white;
+    transition: all 0.5s;
+  }
+  
