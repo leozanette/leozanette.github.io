@@ -30,10 +30,14 @@ nav h2:hover {
     transition: all 0.5s;
 }
 
+nav h2 {
+    margin-right: 10px;
+    padding: 10px 0px;
+}
+
 h2 {
     color: #ffffff;
     font-size: 25px;
-    /* margin: 15px 15px; */
     padding: 10px;
     font-family: Roboto;
     width: 150px;
@@ -44,12 +48,14 @@ h2 {
 .foto {
     width: 40%;
     text-align: center;
+
 }
 
 .eu {
     border-radius: 100%;
     margin: 10px;
     width: 400px;
+    
 }
 
 .desc {
@@ -57,6 +63,7 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    
 }
 
 .desc h3 {
@@ -155,7 +162,6 @@ hr {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    height: 500px;
 }
 
 .projetos-img {
@@ -172,8 +178,8 @@ hr {
 }
 
 .projetos-text h5{
-margin-bottom: 20px;
-font-size: 36px;
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 button {
@@ -195,3 +201,6 @@ button {
     transition: all 0.5s;
   }
   
+  a {
+    text-decoration: none;
+  }
